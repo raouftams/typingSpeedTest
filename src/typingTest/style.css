@@ -1,0 +1,21 @@
+.typing-test-app{
+    height: 100vh;
+    background-color: #F9EFEF;
+}
+.header{
+    border: 1px solid #4D5A7C;
+    height: 15%;
+    background-color: #4D5A7C;
+}
+
+.header-text{
+    color: #FA959B;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20%;
+}
+
+.body{
+    margin-top: 10%;
+}
+
