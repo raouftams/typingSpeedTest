@@ -15,377 +15,52 @@
     margin-left: 20%;
 }
 
-.logo{
-    position: absolute;
-    width: 225.03px;
-    height: 150px;
-    left: 1170px;
-    top: 0px;
-    
-    background: #FA959B;
-    border-radius: 100%;
-}
-
-.logo #logo-clavier{
-    position: absolute;
-    width: 177px;
-    height: 58px;
-    left: 28px;
-    top: 35px;
-
-   background: #4D5A7C;
-}
-
-.logo #clavier-v1{
-
-}
-
-.logo #clavier-t1{
-    position: absolute;
-    width: 36px;
-    height: 5px;
-    left: 5px;
-    top: 5px;
-
-background: #B3BAC4;
-}
-.logo #clavier-t3{
-    position: absolute;
-    width: 41px;
-    height: 9px;
-    left: 30px;
-    top: 45px;
-
-   background: #B3BAC4;
-}
-.logo #clavier-t2{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 5px;
-     top: 15px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t4{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 5px;
-     top: 30px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t5{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 5px;
-     top:45px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t6{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 30px;
-     top:30px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t7{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 30px;
-     top:15px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t8{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 55px;
-     top:15px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t9{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 55px;
-     top:30px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t10{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 80px;
-     top:15px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t11{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 80px;
-     top:30px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t12{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 80px;
-     top:45px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t13{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 105px;
-     top:15px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t14{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 105px;
-     top:30px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t15{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 105px;
-     top:45px;
-
-     background: #B3BAC4;
-}
-
-.logo #clavier-t16{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 130px;
-     top:15px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t17{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 130px;
-     top:30px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t18{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 130px;
-     top:45px;
-
-     background: #B3BAC4;
-}
-
-.logo #clavier-t19{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 155px;
-     top:15px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t20{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 155px;
-     top:30px;
-
-     background: #B3BAC4;
-}
-.logo #clavier-t21{
-    position: absolute;
-     width: 17px;
-     height: 9px;
-     left: 155px;
-     top:45px;
-
-     background: #B3BAC4;
-}
-
-.logo #text{
-    position: absolute;
-    width: 20px;
-    height: 25px;
-    left: 70px;
-    top: 40px;
-
-    font-family: Roboto Condensed;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
 .body{
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
-
-.body-infobar {
-    position: absolute;
-    width: 1600px;
-    height: 74px;
-    left: 0px;
-    top: 180px;
-
-    background: #4D5A7C;
-}
-.level {
-    position: absolute;
-    width: 105px;
-    height: 34px;
-    left: 141px;
-    top: 0px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    text-align: center;
-    
-    color: #FFFFFF;
-    
-}
-.text{
-    position :absolute;
-    width: 116px;
-    height: 26px;
-    left: 370px;
-    top: 0px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    text-align: center;
-
-    color: #FFFFFF;
-
-}
-.time{
-    position :absolute;
-    width: 116px;
-    height: 26px;
-    left: 670px;
-    top: 0px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    text-align: center;
-
-    color: #FFFFFF;
-
+.body-infobar-labels{
+    border: 1px solid #4D5A7C;
+    background-color: #4D5A7C;
 }
 
-.speed{
-    position :absolute;
-    width: 116px;
-    height: 26px;
-    left: 970px;
-    top: 0px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    text-align: center;
-
-    color: #FFFFFF;
-
-}
-.high{
-    position :absolute;
-    width: 100px;
-    height: 9px;
-    left: 1350px;
-    top: -10px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    
-
-    color: #ffffff;
-
-}
-.body-infobarfin{
-    position: absolute;
-    width: 1600px;
-    height: 10px;
-    left: 0px;
-    top: 320px;
-
-    background: #4D5A7C;
-}
-.body-infobarcontent{
-    position: absolute;
-    width: 1600px;
-    height: 65px;
-    left: 0px;
-    top:254px;
-    
-    background: #ffffff;
-}
-.body-textarea{
-    position: absolute;
-    width: 1209px;
-    height: 224px;
-    left: 180px;
-    top: 380px;
-    
-    background: #FFFFFF;
-    border-radius: 20px;
-
+.body-infobar-labels ul, .body-infobar-content ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 }
 
+.body-infobar-content {
+    border-bottom: 10px solid #4D5A7C;
+}
 
-.body-typingarea{
+.body-infobar-label{
+    font-size: 21px;
+    color: #ffff;
+}
 
-    position: absolute;
-    width: 965px;
-    height: 93px;
-    left: 300px;
-    top: 650px;
-    background: #FFFFFF;
-    border-radius: 20px;
+.body-infobar-item{
+    font-size: 21px;
+    color: #4D5A7C;
+}
+
+.body-textarea, .body-typingarea{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-textarea textarea{
+    resize: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.body-typingarea input{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 60%;
+    height: 50px;
+    font-size: 22px;
+    color: #4D5A7C;
 }
