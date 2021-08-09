@@ -1,7 +1,24 @@
 import React from 'react'
 import './style.css';
 
+
+const selectText = () =>{
+    let textarea = document.getElementById('textcontent');
+    textarea.append("this is some text")
+}
+
+
 function TypingTestApp() {
+    const [counter, setCounter] = React.useState(60);
+    const [cpm, setCpm] = React.useState(0);
+    const [wpm, setWpm] = React.useState(0);
+
+    React.useEffect(() => {
+        const timer =
+          counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
+        return () => clearInterval(timer);
+      }, [counter]);
+
     return (
         <div className="typing-test-app">
             <div className="header">
@@ -20,15 +37,14 @@ function TypingTestApp() {
                     <div className="body-infobar-content">
                         <ul>
                             <li className="body-infobar-item">title</li>
-                            <li className="body-infobar-item">1:20</li>
-                            <li className="body-infobar-item">234</li>
-                            <li className="body-infobar-item">51</li>
+                            <li className="body-infobar-item">{counter} sec</li>
+                            <li className="body-infobar-item">{cpm}</li>
+                            <li className="body-infobar-item">{wpm}</li>
                         </ul>
                     </div>
-
                 </div>
                 <div className="body-textarea">
-                    <textarea name="textcontent" id="textcontent" cols="120" rows="15" readOnly></textarea>
+                    <textarea name="textcontent" id="textcontent" cols="100" rows="13" readOnly></textarea>
                 </div>
                 <div className="body-typingarea">
                     <input type="text" />
@@ -38,4 +54,4 @@ function TypingTestApp() {
     )
 }
 
-export default TypingTestApp
+export default TypingTestApp;

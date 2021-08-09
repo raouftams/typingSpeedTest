@@ -54,6 +54,9 @@
     resize: none;
     border: 1px solid #fff;
     border-radius: 5px;
+    color: #7b808f;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .body-typingarea input{
@@ -63,4 +66,5 @@
     height: 50px;
     font-size: 22px;
     color: #4D5A7C;
+    text-align: center;
 }
